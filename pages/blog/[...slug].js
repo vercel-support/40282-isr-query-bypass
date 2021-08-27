@@ -1,13 +1,13 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../../styles/Home.module.css'
 import moment from 'moment'
 import { useRouter } from 'next/router'
 
 function Home({now}) {
   
   const router = useRouter()
-  const { slug } = router.query
-  console.log({router})
+  // const { slug } = router.query
+  // console.log({router})
   return (
     <div className={styles.container}>
       <Head>
